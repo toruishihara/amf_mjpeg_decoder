@@ -8,7 +8,7 @@ Requirement :
 	Visual Studio 2019
 
 Usage : 
-	Open MFCapgtureRawFramesToFile.sln by Visual Studio 2019
+	Open MFCaptureDecodeSave.sln by Visual Studio 2019
 	Build and run by clicking "Local Windows Debugger"
 	
 Result :
