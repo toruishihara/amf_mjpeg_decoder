@@ -16,6 +16,7 @@
     </TargetFrameworkVersion>
     <Keyword>ManagedCProj</Keyword>
     <RootNamespace>MFCaptureRawFramesToFile</RootNamespace>
+    <ProjectName>MFCaptureDecodeSave</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -86,7 +87,7 @@
     <ResourceCompile Include="app.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MFCaptureRawFramesToFile.cpp" />
+    <ClCompile Include="MFCaptureDecodeSave.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="app.ico" />
