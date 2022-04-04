@@ -15,6 +15,9 @@
 * License: Public Domain (no warranty, use at own risk)
 /******************************************************************************/
 
+#ifndef __MFUTILITY_H__
+#define __MFUTILITY_H__
+
 #include <stdio.h>
 #include <tchar.h>
 #include <mfapi.h>
@@ -973,7 +976,6 @@ HRESULT CopyAttribute(IMFAttributes* pSrc, IMFAttributes* pDest, const GUID& key
   PropVariantClear(&var);
   return hr;
 }
-
 /**
 * Creates a bitmap file and writes to disk.
 * @param[in] fileName: the path to save the file at.
@@ -1383,3 +1385,4 @@ public:
     return 0;
   }
 };
+#endif //__MFUTILITY_H__
